@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "godenchants",
+  "version": "${version}",
+  "name": "God Enchants",
+  "description": "Three absurdly overpowered enchantments: Void Rend, Soul Reaper and Divine Judgment.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.godenchants.GodEnchants"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
